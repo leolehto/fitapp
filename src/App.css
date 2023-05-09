@@ -1,6 +1,14 @@
 .App {
   text-align: center;
 }
+.Link{
+  font-size: 30px;
+  text-decoration: none;
+  color: #282c34;
+  padding: 2%;
+  position: relative;
+
+}
 
 .App-logo {
   height: 40vmin;
