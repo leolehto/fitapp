@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/leolehto/fitapp.git/static/css/main.82a54d62.css",
+    "main.js": "/leolehto/fitapp.git/static/js/main.e1d5c6f5.js",
+    "static/js/787.e88ac80e.chunk.js": "/leolehto/fitapp.git/static/js/787.e88ac80e.chunk.js",
+    "index.html": "/leolehto/fitapp.git/index.html",
+    "main.82a54d62.css.map": "/leolehto/fitapp.git/static/css/main.82a54d62.css.map",
+    "main.e1d5c6f5.js.map": "/leolehto/fitapp.git/static/js/main.e1d5c6f5.js.map",
+    "787.e88ac80e.chunk.js.map": "/leolehto/fitapp.git/static/js/787.e88ac80e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.82a54d62.css",
+    "static/js/main.e1d5c6f5.js"
+  ]
+}
