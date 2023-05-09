@@ -41,10 +41,9 @@ export default function TrainingCalendar(){
         
     })
 
-
 return(
     <div>
-        <Calendar localizer={localizer} startAccesor="start" endAccessor="end" events={trainings}
+        <Calendar localizer={localizer} startAccesor="start" endAccessor="end" events={trainings} formats={"HH:mm:ss"}
         style={{height: 500, margin: '50px'}}></Calendar>
     </div>
 )

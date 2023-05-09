@@ -94,6 +94,8 @@ const deleteCustomer = (params) => {
         })
         .catch(err => console.error(err))
       }
+
+      
     
  
 const[columns] = useState ([
@@ -109,9 +111,6 @@ const[columns] = useState ([
     {cellRenderer: params => <Button size = "small" color = "error" onClick={() => deleteCustomer(params)}>Delete customer</Button>}
 ])
 
-
-
- 
  return(
      <>
      <AddCustomer addCustomer={addCustomer}/>

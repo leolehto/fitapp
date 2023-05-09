@@ -48,8 +48,6 @@ function TrainingList(){
       };
 
 
-      
-
     const[columns] = useState ([
         {headerName: 'Date', field: 'date',valueFormatter: (params) => formatDate(params.value), filter: true, sortable: true},
         {headerName: 'Duration in minutes', field: 'duration', filter: true, sortable: true},
@@ -58,10 +56,6 @@ function TrainingList(){
         {headerName: 'Last name', field: 'customer.lastname', filter: true, sortable: true},
         {cellRenderer: params => <Button size = "small" color = "error" onClick={() => deleteTraining(params)}>Delete</Button>}
     ]);
-
-    
-   
-
 
     return(
         <>
